@@ -1,0 +1,14 @@
+@import './stylesheets/components/about.scss';
+@import './stylesheets/components/contact.scss';
+@import './stylesheets/components/experience.scss';
+@import './stylesheets/components/footer.scss';
+@import './stylesheets/components/header.scss';
+@import './stylesheets/components/nav.scss';
+@import './stylesheets/components/portfolio.scss';
+@import './stylesheets/components/services.scss';
+
+// Global styles
+body {
+    background: black;
+    color: white;
+}
