@@ -1,9 +1,11 @@
 // Graphical variables
 @import "config/fonts";
 @import "config/colors";
+@import "config/containers";
 
 // CSS partials
 @import './components/about';
+@import './components/button';
 @import './components/contact';
 @import './components/experience';
 @import './components/footer';
@@ -14,6 +16,8 @@
 @import './components/testimonials';
 
 // Global styles
+// $transition: all 400ms ease;
+
 * {
     margin: 0;
     padding: 0;
@@ -34,4 +38,77 @@ html {
 
 body {
     font-family: $body-font;
+    background: $color-bg;
+    color: $color-white;
+    line-height: 1.7
+    background-image;
+}
+
+.container {
+    width: $container-width-lg;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+section {
+    margin-top: 8rem;
+    h2, h5 {
+        text-align: center;
+        color: $color-light;
+    }
+    h2 {
+        color: $color-primary;
+        margin-bottom: 3rem;
+    }
+}
+
+.text-light {
+    color: $color-light;
+}
+
+a {
+    color: $color-primary;
+    transition: $transition;
+    :hover {
+        color: $color-white;
+    }
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+// Media Queries
+
+// Medium Devices
+@media screen and (max-width: 1024px){
+    .container {
+        width: $container-width-md;
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+// Small Devices
+@media screen and (max-width: 600px){
+    .container {
+        width: $container-width-sm;
+    }
+
+    section {
+        h2 {
+            margin-bottom: 6rem;
+        }
+    }
 }
