@@ -1,5 +1,6 @@
 import React from 'react'
 import CTA from './CTA'
+import HeaderSocials from './HeaderSocials'
 import MyPic from '../assets/Profile Pic - Transparent.png'
 
 const Header = () => {
@@ -10,6 +11,7 @@ const Header = () => {
         <h1>Aidan Fournier</h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA />
+        <HeaderSocials />
 
         <div className="me">
           <img src={MyPic} alt="" />
