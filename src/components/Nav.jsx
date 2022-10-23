@@ -8,7 +8,7 @@ import { AiFillMessage } from 'react-icons/ai'
 const Nav = () => {
   return (
     <nav>
-      <a href="#"><AiFillHome /></a>
+      <a href="#home" className="active"><AiFillHome /></a>
       <a href="#about"><RiUser3Fill /></a>
       <a href="#experience"><FaBook /></a>
       <a href="#portfolio"><FaFolder /></a>
