@@ -39,7 +39,7 @@ const About = () => {
           </div>
 
           <p>
-            I have a proven track record of writing clean code and designing websites with an eye for aesthetics. I am experienced in building complete applications from the ground up. From my years as a teacher I have nurtured my skills in patience, organization, and mentoring - all of which are invaluable as a member of any team. 
+            I have a proven track record of writing clean code and designing websites with an eye for aesthetics. As a fullstack developer, I am experienced in building complete applications from the ground up. From my years as a teacher I have nurtured my skills in patience, organization, and mentoring - all of which are invaluable as a member of any team. 
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
