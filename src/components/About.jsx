@@ -1,4 +1,8 @@
 import React from 'react'
+import Me from '../assets/me-about.jpg'
+import { GrPersonalComputer } from 'react-icons/gr'
+import { BiGitBranch } from 'react-icons/bi'
+import { GoBrowser } from 'react-icons/go'
 
 const About = () => {
   return (
@@ -9,14 +13,37 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src="" alt="" />
+            <img src={Me} alt="Me" />
           </div>
         </div>
       </div>
 
       <div className="about__content">
+        <div className="about__cards">
+          <article className="about__card">
+            <GrPersonalComputer className="about__icon"/>
+            <h5>Experience</h5>
+            <small>3+ Years Coding</small>
+          </article>
 
+          <article className="about__card">
+            <BiGitBranch className="about__icon"/>
+            <h5>Projects</h5>
+            <small>40+ repos</small>
+          </article>
 
+          <article className="about__card">
+            <GoBrowser className="about__icon"/>
+            <h5>Products</h5>
+            <small>4 Live Sites</small>
+          </article>
+
+          <p>
+            I have a proven track record of writing clean code and designing websites with an eye for aesthetics. I am experienced in building complete applications from the ground up. From my years as a teacher I have nurtured my skills in patience, organization, and mentoring - all of which are invaluable as a member of any team. 
+          </p>
+
+          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+        </div>
       </div>
     </section>
   )
