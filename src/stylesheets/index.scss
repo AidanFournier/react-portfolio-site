@@ -59,7 +59,6 @@ h1 {
 
 section {
     margin-top: 4rem;
-    height: 100vh;
     h2, h5 {
         text-align: center;
         color: $color-light;
@@ -105,11 +104,5 @@ img {
 @media screen and (max-width: 600px){
     .container {
         width: $container-width-sm;
-    }
-
-    section {
-        h2 {
-            margin-bottom: 6rem;
-        }
     }
 }
