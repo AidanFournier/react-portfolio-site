@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+![Portfolio hero](https://www.pngitem.com/pimgs/m/46-464735_under-construction-coming-soon-hd-png-download.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
