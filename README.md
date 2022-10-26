@@ -1,6 +1,7 @@
 # My Portfolio Built with React
 
-![Portfolio hero](https://www.pngitem.com/pimgs/m/46-464735_under-construction-coming-soon-hd-png-download.png)
+![Under-Construction-Sign](https://user-images.githubusercontent.com/78288118/198033436-46090dac-9d15-46e2-b87d-01ab3cbcd4fe.png)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
