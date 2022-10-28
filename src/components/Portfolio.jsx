@@ -13,32 +13,40 @@ const Portfolio = () => {
             <img src={JusticeImg} alt="Justice mockup" />
           </div>
           <h3>Justice</h3>
-          <a href="https://github.com/AidanFournier/justice" className="btn" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.wearejustice.life/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/AidanFournier/justice" className="btn" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.wearejustice.life/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={JusticeImg} alt="Justice mockup" />
           </div>
           <h3>Justice</h3>
-          <a href="https://github.com/AidanFournier/justice" className="btn" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.wearejustice.life/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/AidanFournier/justice" className="btn" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.wearejustice.life/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={JusticeImg} alt="Justice mockup" />
           </div>
           <h3>Justice</h3>
-          <a href="https://github.com/AidanFournier/justice" className="btn" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.wearejustice.life/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/AidanFournier/justice" className="btn" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.wearejustice.life/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+          </div>
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={JusticeImg} alt="Justice mockup" />
           </div>
           <h3>Justice</h3>
-          <a href="https://github.com/AidanFournier/justice" className="btn" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.wearejustice.life/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/AidanFournier/justice" className="btn" target="_blank" rel="noreferrer">GitHub</a>
+            <a href="https://www.wearejustice.life/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
+          </div>
         </article>
       </div>
     </section>
