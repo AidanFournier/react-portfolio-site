@@ -1,5 +1,40 @@
 import React from 'react'
 import JusticeImg from '../assets/JusticeMockup.png'
+import CampQImg from '../assets/CampQ.png'
+import NookPhoneImg from '../assets/NookPhoneMockup.png'
+import WatchListImg from '../assets/WatchList.png'
+
+
+const data = [
+  {
+    id: 1,
+    image: JusticeImg,
+    title: 'Justice',
+    github: "https://github.com/AidanFournier/justice",
+    site: "https://www.wearejustice.life/"
+  },
+  {
+    id: 2,
+    image: CampQImg,
+    title: 'CampQ',
+    github: "https://github.com/AidanFournier/CampQ",
+    site: "https://campq.herokuapp.com/"
+  },
+  {
+    id: 3,
+    image: NookPhoneImg,
+    title: 'NookPhone',
+    github: "https://github.com/AidanFournier/acnh-nook-phone",
+    site: "https://acnh-nookphone.com/"
+  },
+  {
+    id: 4,
+    image: WatchListImg,
+    title: 'WatchList',
+    github: "https://github.com/AidanFournier/justice",
+    site: "https://www.wearejustice.life/"
+  }
+]
 
 const Portfolio = () => {
   return (
@@ -8,46 +43,22 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={JusticeImg} alt="Justice mockup" />
-          </div>
-          <h3>Justice</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/AidanFournier/justice" className="btn" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.wearejustice.life/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={JusticeImg} alt="Justice mockup" />
-          </div>
-          <h3>Justice</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/AidanFournier/justice" className="btn" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.wearejustice.life/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={JusticeImg} alt="Justice mockup" />
-          </div>
-          <h3>Justice</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/AidanFournier/justice" className="btn" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.wearejustice.life/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={JusticeImg} alt="Justice mockup" />
-          </div>
-          <h3>Justice</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/AidanFournier/justice" className="btn" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://www.wearejustice.life/" className="btn btn-primary" target="_blank" rel="noreferrer">Live Demo</a>
-          </div>
-        </article>
+        {
+          data.map(({id, image, title, github, site}) => {
+            return (
+              <article key={id} className="portfolio__item">
+                <div className="portfolio__item-image">
+                  <img src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className="portfolio__item-cta">
+                  <a href={github} className="btn" target="_blank" rel="noreferrer">GitHub</a>
+                  <a href={site} className="btn btn-primary" target="_blank" rel="noreferrer">Site</a>
+                </div>
+              </article>
+            )
+          })
+        }
       </div>
     </section>
   )
