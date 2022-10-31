@@ -20,6 +20,9 @@ const Footer = () => {
         <a href="https://github.com/AidanFournier" target="_blank" rel="noreferrer"><BsGithub /></a>
         <a href="https://twitter.com/aidoufou" target="_blank" rel="noreferrer"><BsTwitter /></a> 
       </div>
+      <div className="footer__copyright">
+        <small>© Aidan Fournier 2022</small>
+      </div>
     </footer>
   )
 }
