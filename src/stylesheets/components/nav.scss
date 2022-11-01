@@ -1,7 +1,8 @@
 .nav__logo {
     height: 2rem;
     width: 2rem;
-    margin: 0 auto;
+    margin-right: auto;
+    // position: absolute;
 }
 
 .nav__md-lg {
@@ -12,8 +13,10 @@
     align-items: center;
     position: absolute;
     top: 0;
+    // right: 20px;
     a {
-        
+        padding: 1rem 2rem;
+        font-size: 1.1rem;
     }
 }
 
