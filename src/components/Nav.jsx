@@ -5,6 +5,7 @@ import { RiUser3Fill } from 'react-icons/ri'
 import { FaBook } from 'react-icons/fa'
 import { FaFolder } from 'react-icons/fa'
 import { AiFillMessage } from 'react-icons/ai'
+import Logo from '../assets/af-logo.png'
 
 
 const Nav = () => {
@@ -13,6 +14,7 @@ const Nav = () => {
   return (
     <nav>
       <div className="nav__md-lg">
+        <img src={Logo} alt="Brand logo" className="nav__logo"/>
         <a href="#home"
           onClick={() => setActiveNav('#home')}
           className={activeNav === '#home' ? 'active' : ''}>
