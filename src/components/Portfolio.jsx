@@ -1,8 +1,8 @@
 import React from 'react'
 import JusticeImg from '../assets/JusticeMockup.png'
-import CampQImg from '../assets/CampQ.png'
+import CampQImg from '../assets/CampQMockup.png'
 import NookPhoneImg from '../assets/NookPhoneMockup.png'
-import WatchListImg from '../assets/WatchList.png'
+import WatchListImg from '../assets/WatchListMockup.png'
 
 
 const data = [
