@@ -13,7 +13,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <div className="nav__md-lg">
+      <div className="nav__md-lg nav__active-scroll">
         <img src={Logo} alt="Brand logo" className="nav__logo"/>
           <a href="#home"
             onClick={() => setActiveNav('#home')}

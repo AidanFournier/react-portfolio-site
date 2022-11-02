@@ -1,6 +1,8 @@
 nav {
     top: 0;
     position: sticky;
+    height: 0.5rem;
+    z-index: 10;
 }
 
 .nav__logo {
@@ -17,7 +19,7 @@ nav {
     padding: 0.7rem 1.7rem;
     display: flex;
     align-items: center;
-
+    position: absolute;
     a {
         padding: 0.5rem 2rem;
         font-size: 1.1rem;
@@ -25,8 +27,20 @@ nav {
     }
 }
 
+.nav__active-scroll {
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    backdrop-filter: blur(15px);
+    a {
+        border-bottom: none;
+        &:hover {
+            border-bottom: 1px solid $color-primary;
+        }
+    }
+}
 
 .nav__mobile {
+    display: none !important;
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     padding: 0.7rem 1.7rem;
@@ -74,5 +88,13 @@ nav {
     .nav__mobile {
         display: block !important;
         display: flex !important;
+        // position: absolute;
+        // bottom: 2rem;
+    }
+
+    nav {
+        top: 0;
+        position: relative;
+        height: 0.5rem;
     }
 }
