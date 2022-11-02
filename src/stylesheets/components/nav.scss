@@ -1,8 +1,14 @@
+nav {
+    top: 0;
+    position: sticky;
+}
+
 .nav__logo {
     height: 2rem;
     width: 2rem;
     margin-right: auto;
-    // position: absolute;
+    margin-left: 1rem;
+    display: block;
 }
 
 .nav__md-lg {
@@ -11,22 +17,18 @@
     padding: 0.7rem 1.7rem;
     display: flex;
     align-items: center;
-    position: absolute;
-    top: 0;
-    // right: 20px;
+
     a {
-        padding: 1rem 2rem;
+        padding: 0.5rem 2rem;
         font-size: 1.1rem;
+        border-bottom: 1px solid $color-primary;
     }
 }
-
-
 
 
 .nav__mobile {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
-    display: none !important;
     padding: 0.7rem 1.7rem;
     z-index: 2;
     position: fixed;
@@ -51,5 +53,26 @@
             background: $color-primary;
             color: $color-bg;
         }
+    }
+}
+
+// Media Queries
+
+// Medium Devices
+@media screen and (max-width: 1024px){
+    .nav__mobile {
+        display: none !important;
+    }
+}
+
+// Small Devices
+@media screen and (max-width: 600px){
+    .nav__md-lg {
+        display: none;
+    }
+
+    .nav__mobile {
+        display: block !important;
+        display: flex !important;
     }
 }
