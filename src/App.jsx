@@ -10,8 +10,8 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <>
-      <Header />
       <Nav />
+      <Header />
       <About />
       <Experience />
       <Portfolio />
