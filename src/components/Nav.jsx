@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { AiFillHome } from 'react-icons/ai'
 import { RiUser3Fill } from 'react-icons/ri'
 import { FaBook } from 'react-icons/fa'
@@ -10,10 +10,19 @@ import Logo from '../assets/af-logo.png'
 
 const Nav = () => {
   const [ activeNav, setActiveNav ] = useState('#home')
+  const [ scrollNav, setScrollNav ] = useState(false)
 
+  const changeBackground = () => {
+    if(window.scrollY >= 70) {
+      setScrollNav(true)
+    } else {
+      setScrollNav(false)
+    }
+  }
+  
   return (
     <nav>
-      <div className="nav__md-lg nav__active-scroll">
+      <div className={scrollNav ? "nav__md-lg nav__scroll" : "nav__md-lg"}>
         <img src={Logo} alt="Brand logo" className="nav__logo"/>
           <a href="#home"
             onClick={() => setActiveNav('#home')}

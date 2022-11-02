@@ -20,14 +20,16 @@ nav {
     display: flex;
     align-items: center;
     position: absolute;
+    transition: $transition;
+
     a {
         padding: 0.5rem 2rem;
         font-size: 1.1rem;
-        border-bottom: 1px solid $color-primary;
+    border-bottom: 1px solid $color-primary;
     }
 }
 
-.nav__active-scroll {
+.nav__scroll {
     background: rgba(0, 0, 0, 0.3);
     z-index: 10;
     backdrop-filter: blur(15px);
