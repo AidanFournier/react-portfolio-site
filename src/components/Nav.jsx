@@ -31,30 +31,33 @@ const Nav = () => {
   return (
     <nav>
       <div className={scrollNav ? "nav__md-lg nav__scroll" : "nav__md-lg"}>
-        <img src={Logo} alt="Brand logo" className="nav__logo"/>
+        <a href="#header" className="nav__logo-link">
+          <img src={Logo} alt="Brand logo" className="nav__logo"/>
+        </a>
+        
           <a href="#home"
             onClick={() => setActiveNav('#home')}
-            className={activeNav === '#home' ? 'active' : ''}>
+            className={activeNav === '#home' ? 'active nav__icon' : 'nav__icon'}>
               <SlHome />
           </a>
           <a href="#about" 
             onClick={() => setActiveNav('#about')} 
-            className={activeNav === '#about' ? 'active' : ''}>
+            className={activeNav === '#about' ? 'active nav__icon' : 'nav__icon'}>
               <FiUser />
           </a>
           <a href="#experience" 
             onClick={() => setActiveNav('#experience')}
-            className={activeNav === '#experience' ? 'active' : ''}>
+            className={activeNav === '#experience' ? 'active nav__icon' : 'nav__icon'}>
               <BsCodeSlash />
           </a>
           <a href="#portfolio" 
             onClick={() => setActiveNav('#portfolio')}
-            className={activeNav === '#portfolio' ? 'active' : ''}>
+            className={activeNav === '#portfolio' ? 'active nav__icon' : 'nav__icon'}>
               <BsFolder2 />
           </a>
           <a href="#contact" 
             onClick={() => setActiveNav('#contact')}
-            className={activeNav === '#contact' ? 'active' : ''}>
+            className={activeNav === '#contact' ? 'active nav__icon' : 'nav__icon'}>
               <BiMessageDetail />
           </a>
       </div>
