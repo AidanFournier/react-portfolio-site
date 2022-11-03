@@ -1,10 +1,10 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
-import { AiFillHome } from 'react-icons/ai'
-import { RiUser3Fill } from 'react-icons/ri'
-import { FaBook } from 'react-icons/fa'
-import { FaFolder } from 'react-icons/fa'
-import { AiFillMessage } from 'react-icons/ai'
+import { SlHome } from 'react-icons/sl'
+import { FiUser } from 'react-icons/fi'
+import { BsCodeSlash } from 'react-icons/bs'
+import { BsFolder2 } from 'react-icons/bs'
+import { BiMessageDetail } from 'react-icons/bi'
 import Logo from '../assets/af-logo.png'
 
 
@@ -19,35 +19,46 @@ const Nav = () => {
       setScrollNav(false)
     }
   }
-  
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeBackground);
+
+    return () => {
+      window.removeEventListener('scroll', changeBackground);
+    };
+  }, [window.scrollY]);
+
   return (
     <nav>
       <div className={scrollNav ? "nav__md-lg nav__scroll" : "nav__md-lg"}>
-        <img src={Logo} alt="Brand logo" className="nav__logo"/>
+        <a href="#header" className="nav__logo-link">
+          <img src={Logo} alt="Brand logo" className="nav__logo"/>
+        </a>
+        
           <a href="#home"
             onClick={() => setActiveNav('#home')}
-            className={activeNav === '#home' ? 'active' : ''}>
-              <AiFillHome />
+            className={activeNav === '#home' ? 'active nav__icon' : 'nav__icon'}>
+              <SlHome />
           </a>
           <a href="#about" 
             onClick={() => setActiveNav('#about')} 
-            className={activeNav === '#about' ? 'active' : ''}>
-              <RiUser3Fill />
+            className={activeNav === '#about' ? 'active nav__icon' : 'nav__icon'}>
+              <FiUser />
           </a>
           <a href="#experience" 
             onClick={() => setActiveNav('#experience')}
-            className={activeNav === '#experience' ? 'active' : ''}>
-              <FaBook />
+            className={activeNav === '#experience' ? 'active nav__icon' : 'nav__icon'}>
+              <BsCodeSlash />
           </a>
           <a href="#portfolio" 
             onClick={() => setActiveNav('#portfolio')}
-            className={activeNav === '#portfolio' ? 'active' : ''}>
-              <FaFolder />
+            className={activeNav === '#portfolio' ? 'active nav__icon' : 'nav__icon'}>
+              <BsFolder2 />
           </a>
           <a href="#contact" 
             onClick={() => setActiveNav('#contact')}
-            className={activeNav === '#contact' ? 'active' : ''}>
-              <AiFillMessage />
+            className={activeNav === '#contact' ? 'active nav__icon' : 'nav__icon'}>
+              <BiMessageDetail />
           </a>
       </div>
 
@@ -58,27 +69,27 @@ const Nav = () => {
         <a href="#home"
           onClick={() => setActiveNav('#home')}
           className={activeNav === '#home' ? 'active' : ''}>
-            <AiFillHome />
+            <SlHome />
         </a>
         <a href="#about" 
           onClick={() => setActiveNav('#about')} 
           className={activeNav === '#about' ? 'active' : ''}>
-            <RiUser3Fill />
+            <FiUser />
         </a>
         <a href="#experience" 
           onClick={() => setActiveNav('#experience')}
           className={activeNav === '#experience' ? 'active' : ''}>
-            <FaBook />
+            <BsCodeSlash />
         </a>
         <a href="#portfolio" 
           onClick={() => setActiveNav('#portfolio')}
           className={activeNav === '#portfolio' ? 'active' : ''}>
-            <FaFolder />
+            <BsFolder2 />
         </a>
         <a href="#contact" 
           onClick={() => setActiveNav('#contact')}
           className={activeNav === '#contact' ? 'active' : ''}>
-            <AiFillMessage />
+            <BiMessageDetail />
         </a>
       </div>
     </nav>
