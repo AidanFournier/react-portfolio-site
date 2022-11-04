@@ -36,7 +36,7 @@ nav {
 }
 
 .nav__scroll {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(79, 97, 125, 0.3);
     z-index: 10;
     backdrop-filter: blur(15px);
     .nav__icon {
@@ -46,7 +46,7 @@ nav {
 
 .nav__mobile {
     display: none !important;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(79, 97, 125, 0.3);
     width: max-content;
     padding: 0.7rem 1.7rem;
     z-index: 2;
@@ -63,14 +63,11 @@ nav {
         padding: 0.9rem;
         border-radius: 50%;
         display: flex;
-        color: $color-light;
+        color: $color-primary;
         font-size: 1.1rem;
-        &:hover {
-            background: rgba(0, 0, 0, 0.3);
-        }
         &.active {
-            background: $color-primary;
-            color: $color-bg;
+            background: $color-primary-variant;
+            color: $color-white;
         }
     }
 }
