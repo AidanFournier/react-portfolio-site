@@ -11,8 +11,7 @@
     border: 1px solid transparent;
     transition: $transition;
     &:hover {
-        border-color: $color-primary-variant;
-        background: transparent;
+        background: $color-primary-variant;
     }
     h3 {
         margin: 1.2rem 0 2rem;
