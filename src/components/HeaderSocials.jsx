@@ -1,15 +1,15 @@
 import React from 'react'
-import { BsLinkedin } from 'react-icons/bs'
-import { BsGithub } from 'react-icons/bs'
-import { BsTwitter } from 'react-icons/bs'
+import { RiLinkedinLine } from 'react-icons/ri'
+import { FiGithub } from 'react-icons/fi'
+import { FiTwitter } from 'react-icons/fi'
 
 
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-        <a href="https://www.linkedin.com/in/aidanfournier/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
-        <a href="https://github.com/AidanFournier" target="_blank" rel="noreferrer"><BsGithub /></a>
-        <a href="https://twitter.com/aidoufou" target="_blank" rel="noreferrer"><BsTwitter /></a>
+        <a href="https://www.linkedin.com/in/aidanfournier/" target="_blank" rel="noreferrer"><RiLinkedinLine /></a>
+        <a href="https://github.com/AidanFournier" target="_blank" rel="noreferrer"><FiGithub /></a>
+        <a href="https://twitter.com/aidoufou" target="_blank" rel="noreferrer"><FiTwitter /></a>
     </div>
   )
 }
