@@ -9,8 +9,7 @@
         border: 1px solid transparent;
         transition: $transition;
         &:hover {
-            background: transparent;
-            border-color: $color-primary-variant;
+            background: $color-primary-variant;
             cursor: default;
         }
         h3 {

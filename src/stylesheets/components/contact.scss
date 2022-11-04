@@ -51,6 +51,9 @@ input, textarea {
     resize: none;
     color: $color-white;
     font-family: 'Poppins', sans-serif;
+    &::placeholder {
+        color: $color-primary-variant;
+    }
 }
 
 // Media Queries
