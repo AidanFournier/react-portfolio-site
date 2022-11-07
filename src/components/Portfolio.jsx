@@ -4,7 +4,6 @@ import CampQImg from '../assets/CampQMockup.png'
 import NookPhoneImg from '../assets/NookPhoneMockup.png'
 import WatchListImg from '../assets/WatchListMockup.png'
 
-
 const data = [
   {
     id: 1,
