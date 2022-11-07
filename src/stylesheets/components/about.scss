@@ -42,6 +42,7 @@
     padding: 2rem;
     text-align: center;
     transition: $transition;
+    margin-bottom: 1.5rem;
     h5 {
         font-size: 0.95rem;
         color: $color-white;
@@ -64,9 +65,12 @@
 
 .about__content {
     p {
-        margin: 2rem 0 2.6rem;
-        color: $color-light;
+        margin: 1rem 0 0;
+        color: $color-white;
         font-weight: 300;
+    }
+    a {
+        margin-top: 2rem;
     }
 }
 
