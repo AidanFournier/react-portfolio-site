@@ -39,8 +39,9 @@ const About = () => {
           </div>
 
           <p>
-            I have a proven track record of writing clean code and designing websites with an eye for aesthetics. As a fullstack developer, I am experienced in building complete applications from the ground up. From my years as a teacher I have nurtured my skills in patience, organization, and mentoring - all of which are invaluable as a member of any team. 
+            I am a fullstack developer specializing in Ruby on Rails and React applications. I enjoy writing clean code and designing websites with an eye for aesthetics. 
           </p>
+          <p> In my free time, I enjoy camping and hiking. I am also a dedicated cat mom and cat auntie (I volunteer at a local cat shelter every week).</p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
