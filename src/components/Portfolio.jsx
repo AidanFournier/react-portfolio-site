@@ -4,6 +4,17 @@ import CampQImg from '../assets/CampQMockup.png'
 import NookPhoneImg from '../assets/NookPhoneMockup.png'
 import WatchListImg from '../assets/WatchListMockup.png'
 
+// import Swiper core and required modules
+import { Pagination } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+// import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+// import 'swiper/css/scrollbar';
+
 const data = [
   {
     id: 1,

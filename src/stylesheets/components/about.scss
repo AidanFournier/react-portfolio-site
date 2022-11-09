@@ -12,7 +12,7 @@
     background: linear-gradient(
         45deg,
         transparent,
-        $color-primary,
+        $color-bg-variant,
         transparent
     );
     display: grid;
@@ -74,10 +74,18 @@
     }
 }
 
+.about__swiper {
+    padding-bottom: 3rem;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background: $color-light;
+}
+
 // Media Queries
 
 // Medium Devices
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -98,7 +106,7 @@
 }
 
 // Small Devices
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .about__me {
         width: 65%;
         margin: 0 auto 3rem;
