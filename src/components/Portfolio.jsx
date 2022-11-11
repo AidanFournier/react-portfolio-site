@@ -4,6 +4,18 @@ import CampQImg from '../assets/CampQMockup.png'
 import NookPhoneImg from '../assets/NookPhoneMockup.png'
 import WatchListImg from '../assets/WatchListMockup.png'
 
+import { SiRubyonrails } from 'react-icons/si'
+import { AiOutlineHtml5 } from 'react-icons/ai'
+import { IoLogoJavascript } from 'react-icons/io'
+import { FaSass } from 'react-icons/fa'
+import { BsFillBootstrapFill } from 'react-icons/bs'
+import { SiPostgresql } from 'react-icons/si'
+import { SiRedis } from 'react-icons/si'
+import { SiHeroku } from 'react-icons/si'
+import { SiFigma } from 'react-icons/si'
+import { SiCanva } from 'react-icons/si'
+import { SiReact } from 'react-icons/si'
+
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
 
@@ -11,9 +23,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-// import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-// import 'swiper/css/scrollbar';
 
 const data = [
   {
@@ -81,6 +91,23 @@ const Portfolio = () => {
                   <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
+
+                <Swiper
+                  pagination={{ clickable: true }}
+                  modules={[Pagination]}
+                  spaceBetween={50}
+                  className="footer__swiper mySwiper">
+                {
+                  data.map(({id, content}) => {
+                    return (
+                      <SwiperSlide id={id}>
+                        <p>{content.stack}</p>
+                      </SwiperSlide>
+                    )
+                  })
+                }
+                </Swiper>
+
                 <div className="portfolio__item-cta">
                   <a href={github} className="btn" target="_blank" rel="noreferrer">GitHub</a>
                   <a href={site} className="btn btn-primary" target="_blank" rel="noreferrer">Site</a>
