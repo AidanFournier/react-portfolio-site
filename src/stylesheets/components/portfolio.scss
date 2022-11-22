@@ -14,7 +14,10 @@
         background: $color-primary-variant;
     }
     h3 {
-        margin: 1.2rem 0 2rem;
+        margin: 1.2rem auto 0.5rem 1rem;
+    }
+    span {
+        font-size: 1.2rem;
     }
 }
 
@@ -23,10 +26,20 @@
     overflow: hidden;
 }
 
+.title__container {
+    display: flex;
+}
+
 .portfolio__item-cta {
     display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
+    margin: auto 1rem;
+}
+
+.portfolio__swiper {
+    width: 16.5rem;
+    font-size: 0.8rem;
+    padding-bottom: 2.5rem;
+    margin-left: 1rem;
 }
 
 // Media Queries
