@@ -50,6 +50,10 @@
         grid-template-columns: 1fr 1fr;
         gap: 1.2rem;
     }
+
+    .portfolio__swiper {
+        width: 18rem;
+    }
 }
 
 // Small Devices
@@ -57,5 +61,9 @@
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+
+    .portfolio__swiper {
+        width: 18rem;
     }
 }
