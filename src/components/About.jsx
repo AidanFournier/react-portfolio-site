@@ -62,7 +62,7 @@ const About = () => {
             </article>
           </div>
 
-          {/* <Swiper
+          <Swiper
             pagination={{ clickable: true }}
             modules={[Pagination]}
             spaceBetween={50}
@@ -76,7 +76,7 @@ const About = () => {
               )
             })
           }
-          </Swiper> */}
+          </Swiper>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
