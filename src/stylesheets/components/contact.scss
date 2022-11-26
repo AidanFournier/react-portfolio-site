@@ -73,6 +73,9 @@ input, textarea {
     .container {
         &.contact__container {
             width: $container-width-sm;
+            button {
+                margin-left: auto;
+            }
         }
     }
 }
