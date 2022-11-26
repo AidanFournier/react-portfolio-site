@@ -31,7 +31,7 @@ const Nav = () => {
   return (
     <nav>
       <div className={scrollNav ? "nav__md-lg nav__scroll" : "nav__md-lg"}>
-        <a href="#header" className="nav__logo-link">
+        <a href="#home" className="nav__logo-link">
           <img src={Logo} alt="Brand logo" className="nav__logo"/>
         </a>
         
