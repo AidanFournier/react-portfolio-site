@@ -65,10 +65,17 @@
         & > div {
             width: 100%;
             padding: 2rem 1.5rem;
+            h3 {
+                margin-bottom: 1rem;
+            }
         }
         h4 {
             font-size: 0.8rem;
         }
+    }
+
+    .experience__content {
+        gap: 0.5rem 2rem;
     }
 
     .experience__details-icon {
