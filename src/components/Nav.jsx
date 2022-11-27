@@ -26,7 +26,7 @@ const Nav = () => {
     return () => {
       window.removeEventListener('scroll', changeBackground);
     };
-  }, [window.scrollY]);
+  });
 
   return (
     <nav>
