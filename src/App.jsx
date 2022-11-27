@@ -1,5 +1,6 @@
 import React from 'react'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
+import { HelmetProvider } from 'react-helmet-async'
 import Header from './components/Header'
 import Nav from './components/Nav'
 import About from './components/About'
@@ -10,7 +11,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <>
+    <HelmetProvider>
       <Helmet>
         <meta charset="UTF-8" />
         <title>Aidan Fournier</title>
@@ -28,7 +29,7 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
-    </>
+    </HelmetProvider>
   )
 }
 
