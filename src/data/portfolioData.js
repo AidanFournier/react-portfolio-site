@@ -34,9 +34,9 @@ const data = [
         <span><SiFigma /></span>
       ],
       github: "https://github.com/AidanFournier/justice",
-      site: "https://www.wearejustice.life/",
+      site: "https://justice-app.herokuapp.com/",
       content: {
-        description: "Evidence-collecting app for victims of abuse. Users can document incidents, generate police reports in Japanese, and connect with other users who have the same abuser using facial-recogntion technology.",
+        description: "Evidence-collecting app for victims of abuse. Users can document incidents, generate police reports in Japanese, and connect with other users who have the same abuser using facial-recognition technology.",
         role: "As the lead Front-End Developer for this project, I had to think about how to design the app with mobile-first function in mind. I challenged myself by learning how to use Stimulus.js and create wireframes on Figma."
       }
     },
@@ -102,10 +102,10 @@ const data = [
         <span><SiFigma /></span>
       ],
       github: "https://github.com/AidanFournier/justice",
-      site: "https://www.wearejustice.life/",
+      site: "https://watchlist-yhqh.onrender.com/",
       content: {
         description: "Create lists of your favourite movies and share them with your friends.",
-        role: "This project taught me how to host my site on Heroku and host images on Cloudinary."
+        role: "This project taught me how to host my site on Heroku and host images using Cloudinary, I recently switched it to Render for hosting."
       }
     }
   ]
