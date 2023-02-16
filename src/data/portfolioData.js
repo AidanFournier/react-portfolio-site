@@ -36,7 +36,7 @@ const data = [
       github: "https://github.com/AidanFournier/justice",
       site: "https://justice-app.herokuapp.com/",
       content: {
-        description: "Evidence-collecting app for victims of abuse. Users can document incidents, generate police reports in Japanese, and connect with other users who have the same abuser using facial-recognition technology.",
+        description: "🚧Link is currently broken due to Heroku's change of service plans.🚧 Evidence-collecting app for victims of abuse. Users can document incidents, generate police reports in Japanese, and connect with other users who have the same abuser using facial-recognition technology.",
         role: "As the lead Front-End Developer for this project, I had to think about how to design the app with mobile-first function in mind. I challenged myself by learning how to use Stimulus.js and create wireframes on Figma."
       }
     },
@@ -60,7 +60,7 @@ const data = [
       github: "https://github.com/AidanFournier/CampQ",
       site: "https://campq.herokuapp.com/",
       content: {
-        "description": "A marketplace app for renting or lending camping gear. My team built this MVC app in two weeks. We used the Cloudinary and Mapbox APIs as well as the JS plugin Flatpickr.",
+        "description": "🚧Link is currently broken due to Heroku's change of service plans.🚧 A marketplace app for renting or lending camping gear. My team built this MVC app in two weeks. We used the Cloudinary and Mapbox APIs as well as the JS plugin Flatpickr.",
         "role": "As the Project Manager, I learned invaluable skills in organizing my team and communicating with them using platforms such as Slack, Trello, and Github."
       }
     },
