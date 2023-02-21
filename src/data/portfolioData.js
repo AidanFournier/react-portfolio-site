@@ -2,6 +2,7 @@ import JusticeImg from '../assets/JusticeMockup.png'
 import CampQImg from '../assets/CampQMockup.png'
 import NookPhoneImg from '../assets/NookPhoneMockup.png'
 import WatchListImg from '../assets/WatchListMockup.png'
+import RatatouilleImg from '../assets/RatatouilleMockup.png'
 
 import { DiRor } from 'react-icons/di'
 import { FaHtml5 } from 'react-icons/fa'
@@ -106,6 +107,24 @@ const data = [
       content: {
         description: "Create lists of your favourite movies and share them with your friends.",
         role: "This project taught me how to host my site on Heroku and host images using Cloudinary, I recently switched it to Render for hosting."
+      }
+    },
+    {
+      id: 5,
+      image: RatatouilleImg,
+      title: "Ratatouille",
+      stack: [
+        <p>The tech stack:</p>,
+        <span><FaJsSquare /></span>,
+        <span><FaHtml5 /></span>,
+        <span><SiHeroku /></span>,
+        <span><SiFigma /></span>
+      ],
+      github: "https://github.com/AidanFournier/ratatouille",
+      site: "https://chic-pegasus-d27631.netlify.app/restaurants/",
+      content: {
+        description: "Search for your new favourite restaurant in Tokyo using Ratatouille, a responsive app built with React and Emotion.",
+        role: "This front-end project, completed in 7 days, challenged me to build upon an existing codebase using React, Emotion & components created in Storybook. I used endpoints from the TableCheck API for the search function and the Mapbox API for displaying pinned locations."
       }
     }
   ]
