@@ -23,21 +23,17 @@ const data = [
       image: JusticeImg,
       title: "Justice",
       stack: [
-        <p>The tech stack:</p>,
-        <span><DiRor /></span>,
-        <span><FaJsSquare /></span>,
-        <span><FaHtml5 /></span>,
-        <span><FaCss3Alt /></span>,
-        <span><FaSass /></span>,
-        <span><SiPostgresql /></span>,
-        <span><SiRedis /></span>,
-        <span><SiHeroku /></span>,
-        <span><SiFigma /></span>
+        <h4>Front-end:</h4>,
+        <p>JavaScript, HTML5, CSS, Sass</p>,
+        <h4>Back-end:</h4>,
+        <p>Ruby on Rails</p>,
+        <p>Others:</p>,
+        <p>Postgres, Redis, Heroku, Figma</p>
       ],
       github: "https://github.com/AidanFournier/justice",
       site: "https://justice-app.herokuapp.com/",
       content: {
-        description: "🚧Link is currently broken due to Heroku's change of service plans.🚧 Evidence-collecting app for victims of abuse. Users can document incidents, generate police reports in Japanese, and connect with other users who have the same abuser using facial-recognition technology.",
+        description: "🚧 Link is currently broken due to Heroku's change in service plans. 🚧 Evidence-collecting app for victims of abuse. Users can document incidents, generate police reports in Japanese, and connect with other users who have the same abuser using facial-recognition technology.",
         role: "As the lead Front-End Developer for this project, I had to think about how to design the app with mobile-first function in mind. I challenged myself by learning how to use Stimulus.js and create wireframes on Figma."
       }
     },
@@ -46,22 +42,17 @@ const data = [
       image: CampQImg,
       title: "CampQ",
       stack: [
-        <p>The tech stack:</p>,
-        <span><DiRor /></span>,
-        <span><FaJsSquare /></span>,
-        <span><FaHtml5 /></span>,
-        <span><FaCss3Alt /></span>,
-        <span><FaBootstrap /></span>,
-        <span><FaSass /></span>,
-        <span><SiPostgresql /></span>,
-        <span><SiRedis /></span>,
-        <span><SiHeroku /></span>,
-        <span><SiFigma /></span>
+        <h4>Front-end:</h4>,
+        <p>JavaScript, HTML5, CSS, Sass, Bootstrap</p>,
+        <h4>Back-end:</h4>,
+        <p>Ruby on Rails</p>,
+        <p>Others:</p>,
+        <p>Postgres, Redis, Heroku, Figma</p>
       ],
       github: "https://github.com/AidanFournier/CampQ",
       site: "https://campq.herokuapp.com/",
       content: {
-        "description": "🚧Link is currently broken due to Heroku's change of service plans.🚧 A marketplace app for renting or lending camping gear. My team built this MVC app in two weeks. We used the Cloudinary and Mapbox APIs as well as the JS plugin Flatpickr.",
+        "description": "🚧 Link is currently broken due to Heroku's change in service plans. 🚧 A marketplace app for renting or lending camping gear. My team built this MVC app in two weeks. We used the Cloudinary and Mapbox APIs as well as the JS plugin Flatpickr.",
         "role": "As the Project Manager, I learned invaluable skills in organizing my team and communicating with them using platforms such as Slack, Trello, and Github."
       }
     },
@@ -70,19 +61,15 @@ const data = [
       image: NookPhoneImg,
       title: "NookPhone",
       stack: [
-        <p>The tech stack:</p>,
-        <span><SiReact /></span>,
-        <span><FaJsSquare /></span>,
-        <span><FaHtml5 /></span>,
-        <span><FaCss3Alt /></span>,
-        <span><FaSass /></span>,
-        <span><SiFigma /></span>,
-        <span><SiCanva /></span>
+        <h4>Front-end:</h4>,
+        <p>React, JavaScript, HTML5, CSS, Sass</p>,
+        <p>Others:</p>,
+        <p>Netlify, Postman, Figma, Canva</p>
       ],
       github: "https://github.com/AidanFournier/acnh-nook-phone",
       site: "https://acnh-nookphone.com/",
       content: {
-        description: "This mobile-first application provides gameplay support for Animal Crossing New Horizons.",
+        description: "This mobile-first application provides gameplay support for Animal Crossing New Horizons. You can search for any existing character in the ACNH franchise and discover their appearance, their personal info such as birthday, and the interior/exterior design of their house.",
         role: "This is my first independent project built with React.js. Along with using hooks for State and Effect, I challenged myself by using Axios to support the API calls in the app."
       }
     },
@@ -91,16 +78,12 @@ const data = [
       image: WatchListImg,
       title: "WatchList",
       stack: [
-        <p>The tech stack:</p>,
-        <span><DiRor /></span>,
-        <span><FaJsSquare /></span>,
-        <span><FaHtml5 /></span>,
-        <span><FaCss3Alt /></span>,
-        <span><FaBootstrap /></span>,
-        <span><FaSass /></span>,
-        <span><SiPostgresql /></span>,
-        <span><SiHeroku /></span>,
-        <span><SiFigma /></span>
+        <h4>Front-end:</h4>,
+        <p>JavaScript, HTML5, CSS, Sass, Bootstrap</p>,
+        <h4>Back-end:</h4>,
+        <p>Ruby on Rails</p>,
+        <p>Others:</p>,
+        <p>Postgres, Render, Figma, Postman</p>
       ],
       github: "https://github.com/AidanFournier/justice",
       site: "https://watchlist-yhqh.onrender.com/",
@@ -114,11 +97,10 @@ const data = [
       image: RatatouilleImg,
       title: "Ratatouille",
       stack: [
-        <p>The tech stack:</p>,
-        <span><FaJsSquare /></span>,
-        <span><FaHtml5 /></span>,
-        <span><SiHeroku /></span>,
-        <span><SiFigma /></span>
+        <h4>Front-end:</h4>,
+        <p>React, Emotion, Storybook</p>,
+        <p>Others:</p>,
+        <p>Netlify, Postman, Figma, Canva</p>
       ],
       github: "https://github.com/AidanFournier/ratatouille",
       site: "https://chic-pegasus-d27631.netlify.app/restaurants/",
