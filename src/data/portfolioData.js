@@ -4,19 +4,6 @@ import NookPhoneImg from '../assets/NookPhoneMockup.png'
 import WatchListImg from '../assets/WatchListMockup.png'
 import RatatouilleImg from '../assets/RatatouilleMockup.png'
 
-import { DiRor } from 'react-icons/di'
-import { FaHtml5 } from 'react-icons/fa'
-import { FaCss3Alt } from 'react-icons/fa'
-import { FaJsSquare } from 'react-icons/fa'
-import { FaSass } from 'react-icons/fa'
-import { FaBootstrap } from 'react-icons/fa'
-import { SiPostgresql } from 'react-icons/si'
-import { SiRedis } from 'react-icons/si'
-import { SiHeroku } from 'react-icons/si'
-import { SiFigma } from 'react-icons/si'
-import { SiCanva } from 'react-icons/si'
-import { SiReact } from 'react-icons/si'
-
 const data = [
     {
       id: 1,
