@@ -4,48 +4,30 @@ import NookPhoneImg from '../assets/NookPhoneMockup.png'
 import WatchListImg from '../assets/WatchListMockup.png'
 import RatatouilleImg from '../assets/RatatouilleMockup.png'
 import ProNefImg from '../assets/ProNefMockup.png'
+import GoToTravelImg from '../assets/Go To Travel Mockup.png'
 
 const data = [
     {
       id: 1,
-      image: JusticeImg,
-      title: "Justice",
+      image: GoToTravelImg,
+      title: "Go To Travel",
       stack: [
         <h4>Front-end:</h4>,
-        <p>JavaScript, HTML5, CSS, Sass</p>,
-        <h4>Back-end:</h4>,
-        <p>Ruby on Rails</p>,
+        <p>React Native, Tailwind</p>,
+        <h4>APIs:</h4>,
+        <p>Google Places, Travel Advisor</p>,
         <p>Others:</p>,
-        <p>Postgres, Redis, Heroku, Figma</p>
+        <p>Expo</p>
       ],
-      github: "https://github.com/AidanFournier/justice",
-      site: "https://justice-app.herokuapp.com/",
+      github: "https://github.com/AidanFournier/go-to-travel",
+      site: "https://main--legendary-faun-08a27a.netlify.app/",
       content: {
-        description: "🚧 Link is currently broken due to Heroku's change in service plans. 🚧 Evidence-collecting app for victims of abuse. Users can document incidents, generate police reports in Japanese, and connect with other users who have the same abuser using facial-recognition technology.",
-        role: "As the lead Front-End Developer for this project, I had to think about how to design the app with mobile-first function in mind. I challenged myself by learning how to use Stimulus.js and create wireframes on Figma."
+        description: "A mobile app to help you discover hotels, restaurants, and attractions in cities across Japan. Inspired by Japan's much loved discount travel campaign that promotes tourism within the country.",
+        role: "This native app has a clean design and is responsive to all devices. I challenged myself with this project by connecting data points from two different APIs."
       }
     },
     {
       id: 2,
-      image: CampQImg,
-      title: "CampQ",
-      stack: [
-        <h4>Front-end:</h4>,
-        <p>JavaScript, HTML5, CSS, Sass, Bootstrap</p>,
-        <h4>Back-end:</h4>,
-        <p>Ruby on Rails</p>,
-        <p>Others:</p>,
-        <p>Postgres, Redis, Heroku, Figma</p>
-      ],
-      github: "https://github.com/AidanFournier/CampQ",
-      site: "https://campq.herokuapp.com/",
-      content: {
-        "description": "🚧 Link is currently broken due to Heroku's change in service plans. 🚧 A marketplace app for renting or lending camping gear. My team built this MVC app in two weeks. We used the Cloudinary and Mapbox APIs as well as the JS plugin Flatpickr.",
-        "role": "As the Project Manager, I learned invaluable skills in organizing my team and communicating with them using platforms such as Slack, Trello, and Github."
-      }
-    },
-    {
-      id: 3,
       image: NookPhoneImg,
       title: "NookPhone",
       stack: [
@@ -62,7 +44,7 @@ const data = [
       }
     },
     {
-      id: 4,
+      id: 3,
       image: WatchListImg,
       title: "WatchList",
       stack: [
@@ -81,7 +63,7 @@ const data = [
       }
     },
     {
-      id: 5,
+      id: 4,
       image: RatatouilleImg,
       title: "Ratatouille",
       stack: [
@@ -98,7 +80,7 @@ const data = [
       }
     },
     {
-      id: 6,
+      id: 5,
       image: ProNefImg,
       title: "ProNef",
       stack: [
@@ -112,6 +94,45 @@ const data = [
       content: {
         description: "Browse and search for your favourite NFTs on this marketplace app. Made for both IOS and Android devices.",
         role: "This is my first project built with React Native. I focused on creating reusable components and used React Native's  FlatList, ScrollView, SafeAreaView, StatusBar, and more."
+      }
+    },
+    {
+      id: 6,
+      image: CampQImg,
+      title: "CampQ",
+      stack: [
+        <h4>Front-end:</h4>,
+        <p>JavaScript, HTML5, CSS, Sass, Bootstrap</p>,
+        <h4>Back-end:</h4>,
+        <p>Ruby on Rails</p>,
+        <p>Others:</p>,
+        <p>Postgres, Redis, Heroku, Figma</p>
+      ],
+      github: "https://github.com/AidanFournier/CampQ",
+      site: "https://campq.herokuapp.com/",
+      content: {
+        "description": "🚧 Link is currently broken due to Heroku's change in service plans. 🚧 A marketplace app for renting or lending camping gear. My team built this MVC app in two weeks. We used the Cloudinary and Mapbox APIs as well as the JS plugin Flatpickr.",
+        "role": "As the Project Manager, I learned invaluable skills in organizing my team and communicating with them using platforms such as Slack, Trello, and Github."
+      }
+    },
+    
+    {
+      id: 7,
+      image: JusticeImg,
+      title: "Justice",
+      stack: [
+        <h4>Front-end:</h4>,
+        <p>JavaScript, HTML5, CSS, Sass</p>,
+        <h4>Back-end:</h4>,
+        <p>Ruby on Rails</p>,
+        <p>Others:</p>,
+        <p>Postgres, Redis, Heroku, Figma</p>
+      ],
+      github: "https://github.com/AidanFournier/justice",
+      site: "https://justice-app.herokuapp.com/",
+      content: {
+        description: "🚧 Link is currently broken due to Heroku's change in service plans. 🚧 Evidence-collecting app for victims of abuse. Users can document incidents, generate police reports in Japanese, and connect with other users who have the same abuser using facial-recognition technology.",
+        role: "As the lead Front-End Developer for this project, I had to think about how to design the app with mobile-first function in mind. I challenged myself by learning how to use Stimulus.js and create wireframes on Figma."
       }
     }
   ]
